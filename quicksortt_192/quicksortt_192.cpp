@@ -74,9 +74,18 @@ void q_short(int low, int high) {
 	q_short(j + 1, high);
 } 
 
-void display () {
+void display() {
 	cout << "\n---------------" << endl;
 	cout << "\n-sorted array" << endl;
 	cout << "\n---------------" << endl;
+
+	for (int i = 0; 1 < n;i++) {
+		cout << arr[1] << " ";
+	}
+	cout << "\n\nnumber of comparison : " << cmp_count << endl;
+	cout << "number of data movement: " << mov_count << endl;
+}
+
+
 
 
